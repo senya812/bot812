@@ -1,0 +1,28 @@
+# Секреты и настройки конкретного магазина — НИКОГДА не выкладывать
+.env
+.env.*
+!.env.example
+
+# База с клиентами, товарами и остатками (и служебные файлы SQLite)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Логи
+*.log
+
+# Python и окружение
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Редакторы и система
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
